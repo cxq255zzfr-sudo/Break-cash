@@ -6,7 +6,7 @@ import {
   getBalanceHistory,
   setBalance,
   type AuthUser,
-} from '../api'
+} from '../../api'
 
 type OwnerDashboardProps = {
   user: AuthUser | null

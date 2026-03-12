@@ -1,18 +1,11 @@
 import { useI18n } from '../../i18nCore'
 
-type QuickAction = {
-  id: number
-  label: string
-  icon: string
-}
-
 type WalletQuickActionsProps = {
-  actions: QuickAction[]
   onToggleProfits?: () => void
   onDepositClick?: () => void
 }
 
-export function WalletQuickActions({ actions, onToggleProfits, onDepositClick }: WalletQuickActionsProps) {
+export function WalletQuickActions({ onToggleProfits, onDepositClick }: WalletQuickActionsProps) {
   const { t } = useI18n()
 
   return (

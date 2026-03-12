@@ -19,7 +19,7 @@ type LayoutProps = {
 export function Layout({
   children,
   user,
-  onLogout,
+  onLogout: _onLogout,
   canManageUsers,
   canManageInvites,
   canManageBalances,

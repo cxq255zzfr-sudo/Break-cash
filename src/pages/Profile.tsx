@@ -75,7 +75,6 @@ export function Profile() {
       </section>
 
       <WalletQuickActions
-        actions={walletDashboardMock.quick_actions}
         onDepositClick={() => navigate('/deposit')}
         onToggleProfits={() => setProfitsOpen((open) => !open)}
       />
